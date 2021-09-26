@@ -18,6 +18,6 @@ from django.urls import path
 from .views import calendarView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('<year>', calendarView.as_view(), name="calendar")
 ]
