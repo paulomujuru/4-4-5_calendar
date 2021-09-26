@@ -30,7 +30,56 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 * GET
 **url/2021**
 
-* Calendar View
+## Calendar View
+
+{
+"FiscalYear": 2021,
+"months": [
+{
+"fiscalMonth": "January",
+"NumberOfWeeks": 4,
+"weeks": [
+{
+"weekNumber": 1,
+"days": [
+"2021-01-04",
+"2021-01-05",
+"2021-01-06",
+"2021-01-07",
+"2021-01-08",
+"2021-01-09",
+"2021-01-10"
+]
+},
+{
+"weekNumber": 2,
+"days": [
+"2021-01-11",
+"2021-01-12",
+"2021-01-13",
+"2021-01-14",
+"2021-01-15",
+"2021-01-16",
+"2021-01-17"
+]
+},
+{
+"weekNumber": 3,
+"days": [
+"2021-01-18",
+"2021-01-19",
+"2021-01-20",
+"2021-01-21",
+"2021-01-22",
+"2021-01-23",
+"2021-01-24"
+]
+......
+}
+]
+}
+]
+}
  
 
  ## Deploment process
@@ -40,7 +89,7 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 
  # Notes: https://cloudacademy.com/blog/zappa-or-how-to-go-serverless-with-django/
 
- ## Class:
+ ## def get(self, request,year):
     - calculate the date of the first monday of the year
     - loop for the 4th quarters
     - On the quarter there is a 2 months with 4 weeks and one with 5 weeks
