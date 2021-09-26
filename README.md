@@ -83,6 +83,11 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
  
 
  ## Deploment process
+# Zappa
+1. Request comes into API Gateway
+2. Gateway fires up the server inside a lambda function
+3. The server is then feed to the request
+4. Handled the Django app through the WSGI layer
 
  # Documentation
 
