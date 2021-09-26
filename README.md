@@ -39,3 +39,18 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 
 
  # Notes: https://cloudacademy.com/blog/zappa-or-how-to-go-serverless-with-django/
+
+ ## Class:
+    - calculate the date of the first monday of the year
+    - loop for the 4th quarters
+    - On the quarter there is a 2 months with 4 weeks and one with 5 weeks
+    - It specify the fiscal month name
+    - It specify the number of weeks for the month
+    - loops to create the weeks data og the month
+    - specify the week number
+    - specify the days dates for the week
+    - add the week data to the week number
+    - specify the next week number
+    - specify the month week data
+    - add the current month to the months
+    - add one to the month number to prepare to the next month name
