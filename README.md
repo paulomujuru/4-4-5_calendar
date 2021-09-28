@@ -29,7 +29,7 @@ https://paulojunior.pythonanywhere.com/2021?format=json
 
 ## API USAGE
 
-https://paulojunior.pythonanywhere.com/[year]
+https://paulojunior.pythonanywhere.com/
 
 * GET
 /[year]
