@@ -32,7 +32,7 @@ https://paulojunior.pythonanywhere.com/2021?format=json
 https://paulojunior.pythonanywhere.com/[year]?format=json
 
 * GET
-/[<year>
+/[year]
 
 ## Calendar View
 
