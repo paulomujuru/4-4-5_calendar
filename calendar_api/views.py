@@ -2,7 +2,14 @@ from .serializers import calendarSerializer
 import datetime
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from django.http import HttpResponse
+from django.shortcuts import render
+import json
 
+
+def index(request):
+    response = json.dumps([{}])
+    return HttpResponse(response, content_type='text/json')
 
 class calendarView(APIView):
 
