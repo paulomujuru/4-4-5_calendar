@@ -9,6 +9,10 @@ Retailers are the most common users of the 4-4-5 calendar. Companies who use the
 
 This is an api for the  FiscalYear 4-4-5_calendar system built with the Django REST Framework.
 
+## LINK:
+
+https://paulojunior.pythonanywhere.com/2021
+
 ## Running Locally
 
 1. Clone this repo
@@ -25,10 +29,10 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 
 ## API USAGE
 
-**/<year>**
+**https://paulojunior.pythonanywhere.com/<year>**
 
 * GET
-**url/2021**
+**https://paulojunior.pythonanywhere.com/<year>***
 
 ## Calendar View
 
@@ -81,8 +85,8 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 ]
 }
  
-
- ## Deploment process
+ 
+ ##  AWS Deploment process
 # Zappa
 1. Request comes into API Gateway
 2. Gateway fires up the server inside a lambda function
