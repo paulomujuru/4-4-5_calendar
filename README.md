@@ -11,7 +11,7 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 
 ## LINK:
 
-https://paulojunior.pythonanywhere.com/2021
+https://paulojunior.pythonanywhere.com/2021?format=json
 
 ## Running Locally
 
