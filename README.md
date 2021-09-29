@@ -11,7 +11,7 @@ This is an api for the  FiscalYear 4-4-5_calendar system built with the Django R
 
 ## LINK:
 
-https://paulojunior.pythonanywhere.com/2021?format=json
+https://fiscalcalendar.herokuapp.com/2021
 
 ## Running Locally
 
@@ -29,7 +29,7 @@ https://paulojunior.pythonanywhere.com/2021?format=json
 
 ## API USAGE
 
-https://paulojunior.pythonanywhere.com/
+https://fiscalcalendar.herokuapp.com/
 
 * GET
 /[year]
